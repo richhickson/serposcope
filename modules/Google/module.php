@@ -348,7 +348,7 @@ class Google extends GroupModule {
                 $start_index += 10;
                 sleep($options[get_class($this)]['page_sleep']);
                
-            }while($start_index<100 && !$bAllWebsiteFound);
+            }while($start_index<250 && !$bAllWebsiteFound);
             
             $this->incrementProgressBarUnit();
         }
